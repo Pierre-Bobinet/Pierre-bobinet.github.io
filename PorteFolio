@@ -10,7 +10,7 @@ html = """<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio BTS SIO - Étudiant en informatique">
-    <title>Portfolio BTS SIO | Prénom Nom</title>
+    <title>Portfolio BTS SIO | Pierre Bobinet</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -34,7 +34,7 @@ html = """<!DOCTYPE html>
         <div class="container hero-grid">
             <div>
                 <p class="badge">PORTFOLIO • BTS SIO</p>
-                <h1>Bonjour, je suis <span>Prénom Nom</span>.</h1>
+                <h1>Bonjour, je suis <span>Pierre Bobinet</span>.</h1>
                 <p class="hero-text">
                     Étudiant en BTS SIO, passionné par l'informatique, le développement
                     et les nouvelles technologies. Découvrez ici mon parcours,
@@ -48,9 +48,9 @@ html = """<!DOCTYPE html>
 
             <div class="profile-card">
                 <div class="avatar">PN</div>
-                <h2>Prénom Nom</h2>
-                <p>BTS SIO — Option SLAM / SISR</p>
-                <div class="status"><span></span> Disponible pour une alternance / un emploi</div>
+                <h2>Pierre Bobinet</h2>
+                <p>BTS SIO — Option SISR</p>
+                <div class="status"><span></span></div>
             </div>
         </div>
     </section>
@@ -75,9 +75,9 @@ html = """<!DOCTYPE html>
                 </div>
                 <div class="info-box">
                     <div><strong>Formation</strong><span>BTS SIO</span></div>
-                    <div><strong>Option</strong><span>SLAM / SISR</span></div>
+                    <div><strong>Option</strong><span>SISR</span></div>
                     <div><strong>Stage</strong><span>Réalisé en entreprise</span></div>
-                    <div><strong>Localisation</strong><span>Ville, France</span></div>
+                    <div><strong>Localisation</strong><span>St Trojan, France</span></div>
                 </div>
             </div>
         </div>
@@ -87,16 +87,6 @@ html = """<!DOCTYPE html>
         <div class="container">
             <p class="section-label">02 — SAVOIR-FAIRE</p>
             <h2>Mes compétences</h2>
-
-            <div class="skills-grid">
-                <article class="skill-card">
-                    <div class="icon">&lt;/&gt;</div>
-                    <h3>Développement</h3>
-                    <p>Création de sites et applications, programmation et bases de données.</p>
-                    <div class="tags">
-                        <span>HTML</span><span>CSS</span><span>PHP</span><span>SQL</span><span>JavaScript</span>
-                    </div>
-                </article>
 
                 <article class="skill-card">
                     <div class="icon">⌁</div>
