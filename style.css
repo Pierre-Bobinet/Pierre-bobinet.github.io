@@ -90,7 +90,7 @@ nav a:hover { color: var(--accent); }
 
 h1, h2, h3 {
     font-family: 'Space Grotesk', sans-serif;
-    #color: var(--dark);
+    
     line-height: 1.15;
 }
 
