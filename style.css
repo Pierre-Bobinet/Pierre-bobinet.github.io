@@ -495,7 +495,48 @@ footer {
 .activity-image:hover img {
     transform: scale(1.05);
 }
-/* Espacement entre les deux stages */
-.stage-2 {
-    margin-top: 30px;
+/* =========================
+   STAGES 1 ET 2
+   ========================= */
+
+.stage-separator {
+    height: 30px;
+}
+
+
+/* Badge différent pour chaque stage */
+
+.stage-card .stage-badge {
+    min-width: 90px;
+    text-align: center;
+}
+
+
+/* Amélioration de l'espacement */
+
+.stage-card + .stage-separator {
+    margin: 0;
+}
+
+
+/* Responsive téléphone */
+
+@media (max-width: 850px) {
+
+    .stage-separator {
+        height: 20px;
+    }
+
+    .stage-card {
+        padding: 25px;
+    }
+
+    .stage-top {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .stage-badge {
+        align-self: flex-start;
+    }
 }
