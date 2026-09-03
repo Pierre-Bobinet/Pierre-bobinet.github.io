@@ -445,3 +445,27 @@ footer {
         padding: 18px;
     }
 }
+/* =========================
+   IMAGE DES PROJETS
+   ========================= */
+
+.project-image {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    border-radius: 16px;
+    background: #e5e7eb;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.05);
+}
