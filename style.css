@@ -495,3 +495,7 @@ footer {
 .activity-image:hover img {
     transform: scale(1.05);
 }
+/* Espacement entre les deux stages */
+.stage-2 {
+    margin-top: 30px;
+}
